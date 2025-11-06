@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fuelio3/static/css/main.23bc3598.css",
+    "main.js": "/Fuelio3/static/js/main.024347da.js",
+    "index.html": "/Fuelio3/index.html",
+    "main.23bc3598.css.map": "/Fuelio3/static/css/main.23bc3598.css.map",
+    "main.024347da.js.map": "/Fuelio3/static/js/main.024347da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23bc3598.css",
+    "static/js/main.024347da.js"
+  ]
+}
