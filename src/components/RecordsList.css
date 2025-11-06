@@ -1,0 +1,177 @@
+.records-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.records-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #6c757d;
+}
+
+.empty-state p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.empty-state .subtext {
+  font-size: 14px;
+}
+
+.records-container {
+  display: grid;
+  gap: 20px;
+}
+
+.record-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.record-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.record-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.record-number {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.record-date {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.record-body {
+  padding: 20px;
+}
+
+.record-detail {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.record-detail:last-of-type {
+  border-bottom: none;
+}
+
+.record-detail .icon {
+  font-size: 24px;
+  margin-right: 15px;
+  width: 30px;
+  text-align: center;
+}
+
+.record-detail .detail-label {
+  font-size: 12px;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.record-detail .detail-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 2px;
+}
+
+.record-detail.highlight {
+  background: #d1ecf1;
+  margin: 10px -20px 0 -20px;
+  padding: 15px 20px;
+  border-bottom: none;
+}
+
+.record-detail.highlight .detail-value {
+  color: #0c5460;
+  font-size: 20px;
+}
+
+.record-notes {
+  margin-top: 15px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #495057;
+  line-height: 1.5;
+}
+
+.record-notes strong {
+  color: #333;
+}
+
+.record-footer {
+  padding: 15px 20px;
+  background: #f8f9fa;
+  text-align: right;
+}
+
+.btn-delete {
+  padding: 8px 16px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-delete:hover {
+  background: #c82333;
+}
+
+@media (max-width: 768px) {
+  .records-list {
+    padding: 10px;
+  }
+
+  .record-header {
+    padding: 12px 15px;
+  }
+
+  .record-number {
+    font-size: 16px;
+  }
+
+  .record-date {
+    font-size: 12px;
+  }
+
+  .record-body {
+    padding: 15px;
+  }
+
+  .record-detail .icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .record-detail .detail-value {
+    font-size: 16px;
+  }
+}
