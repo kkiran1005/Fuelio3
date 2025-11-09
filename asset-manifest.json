@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Fuelio3/static/css/main.23bc3598.css",
-    "main.js": "/Fuelio3/static/js/main.024347da.js",
+    "main.css": "/Fuelio3/static/css/main.fd2db009.css",
+    "main.js": "/Fuelio3/static/js/main.ca7e84ba.js",
     "index.html": "/Fuelio3/index.html",
-    "main.23bc3598.css.map": "/Fuelio3/static/css/main.23bc3598.css.map",
-    "main.024347da.js.map": "/Fuelio3/static/js/main.024347da.js.map"
+    "main.fd2db009.css.map": "/Fuelio3/static/css/main.fd2db009.css.map",
+    "main.ca7e84ba.js.map": "/Fuelio3/static/js/main.ca7e84ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.23bc3598.css",
-    "static/js/main.024347da.js"
+    "static/css/main.fd2db009.css",
+    "static/js/main.ca7e84ba.js"
   ]
 }
